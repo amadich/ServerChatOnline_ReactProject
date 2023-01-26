@@ -1,6 +1,16 @@
 # ServerChatOnline_ReactProject
 Create Web Page Chat Online {server build} React Project 🍃
 ![image](https://user-images.githubusercontent.com/74735976/214866886-1df49c41-6559-4444-8e85-4578d8b0cc44.png)
+#Pack React App :
+```js
+import React, { useState } from "react";
+import io from 'socket.io-client';
+//import Axios from "axios";
+export default function App() {
+   const socket = io();
+   const [message, setMessage] = useState(""); // Your input message
+   // Next Script ...
+```
 # In React App : 
 ```js
 // Add this Function in your Send Button 
